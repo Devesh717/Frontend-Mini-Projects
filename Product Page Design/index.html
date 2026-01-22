@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page Design</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="product">
+            <div class="gallery">
+                <img src="Images/Image1.jpg" id="productImg">
+                <div class="controls">
+                    <span class="btn active"></span>
+                    <span class="btn"></span>
+                    <span class="btn"></span>
+                </div>
+            </div>
+            <div class="details">
+                <h1>Gaming Laptop</h1>
+                <h2>₹3,99,999</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta,</p>
+                <form>
+                    <div class="size-select">
+                        <p>RAM</p>
+                        <label for="8GB">
+                            <input type="radio" name="RAM" id="8GB">
+                            <span>8GB</span>
+                        </label>
+                        <label for="16GB">
+                            <input type="radio" name="RAM" id="16GB">
+                            <span>16GB</span>
+                        </label>
+                    </div>
+
+                    <div class="color-select">
+                        <p>Color</p>
+                        <label for="Lunar Silver">
+                            <input type="radio" name="color" id="silver">
+                            <span class="color-1"></span>
+                        </label>
+                        <label for="Dark Side of the Moon">
+                            <input type="radio" name="color" id="dark">
+                            <span class="color-2"></span>
+                        </label>
+                    </div>
+
+                    <div class="quantity-select">
+                        <p>Quantity</p>
+                        <input type="number" value="1">
+                    </div>
+                    <button>Buy Now</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
