@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Quiz Maker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Online Quiz Maker</h1>
+        </div>
+        <div class="selection-container">
+            <button id="create-quiz">Create Quiz</button>
+        </div>
+
+        <div class="create" style="display: none;">
+            <h2>Create a Quiz</h2>
+            <input type="text" id="question" placeholder="Enter your question" />
+            <input type="text" id="answer1" placeholder="Option A" />
+            <input type="text" id="answer2" placeholder="Option B" />
+            <input type="text" id="answer3" placeholder="Option C" />
+            <input type="text" id="answer4" placeholder="Option D" />
+            <input type="text" id="correct-answer" placeholder="Correct Answer" />
+            <button id="add-question">Add Question</button>
+            <button id="take-quiz" style="display: none;">Take Quiz</button>
+        </div>
+
+        <div class="take" style="display: none;">
+            <div id="quiz-display">
+                <h2>Take the Quiz</h2>
+                <div id="quiz-questions"></div>
+                <button id="submit-quiz">Submit Quiz</button>
+            </div>
+        </div>
+
+        <div id="result" style="display:none;"></div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
